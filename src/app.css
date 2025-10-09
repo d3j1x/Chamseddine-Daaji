@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+
+body {
+  font-family: "Noto Naskh Arabic", "Amiri", "Scheherazade New", "Arial", "Tahoma", sans-serif;
+  direction: rtl;
+  background-color: whitesmoke;
+}
