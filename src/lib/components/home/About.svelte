@@ -1,28 +1,99 @@
-<div class="w-full max-w-7xl px-4 mx-auto sm:px-8 mt-24">
-    <blockquote class="relative grid items-center bg-white shadow-xl md:grid-cols-3 rounded-xl">
+<script lang="ts">
+  import { onMount } from 'svelte';
+  
+  let visible = $state(false);
+  
+  onMount(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          visible = true;
+        }
+      });
+    }, { threshold: 0.1 });
+    
+    const section = document.querySelector('#about');
+    if (section) observer.observe(section);
+    
+    return () => observer.disconnect();
+  });
+  
+  const achievements = [
+    { number: '5+', label: 'مشروعات تم إطلاقها' },
+    { number: '3+', label: 'سنوات من الخبرة' },
+    { number: '10+', label: 'عملاء سعداء' }
+  ];
+  
+  const skills = [
+    'استراتيجية الأعمال', 
+    'إدارة المنتجات', 
+    'التسويق الرقمي', 
+    'تطوير الويب', 
+    'تصميم واجهات وتجربة المستخدم (UI/UX)', 
+    'تحليل البيانات'
+  ];
+</script>
+
+<section id="about" class="py-20 md:py-32 px-4 sm:px-6 lg:px-8">
+  <div class="mx-auto max-w-7xl">
+    <div class="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <!-- Profile Image -->
+      <div class="order-2 md:order-1 {visible ? 'animate-fade-in-up' : 'opacity-0'}">
+        <div class="relative">
+          <div class="aspect-square rounded-2xl overflow-hidden bg-muted">
+            <img 
+              src="/images/chamseddine.png" 
+              alt="Profile" 
+              class="w-full h-full object-cover"
+            />
+          </div>
+          <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/20 rounded-2xl -z-10"></div>
+        </div>
+      </div>
+      
+      <!-- About Content -->
+      <div class="order-1 md:order-2 space-y-6 {visible ? 'animate-fade-in-up' : 'opacity-0'}" style="animation-delay: 0.2s;">
+        <div>
+          <p class="text-accent font-medium text-base tracking-wide  mb-2">
+            نبذة عني
+          </p>
+          <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
+            تحويل الأفكار إلى واقع
+          </h2>
+        </div>
         
-        <img class="hidden object-cover w-full h-full rounded-l-xl md:block" style="clip-path: polygon(0 0%, 100% 0%, 75% 100%, 0% 100%);" 
-        src="/images/chamseddine.png" alt="Profile picture of Chamseddine Daaji">
-
-        <article class="relative p-6 md:p-8 md:col-span-2">
-            <svg class="absolute top-0 right-0 hidden w-24 h-24 -mt-12 -mr-12 text-primary-600 md:block" width="256"
-                height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M65.44 153.526V149.526H61.44H20.48C11.3675 149.526 4 142.163 4 133.105V51.4211C4 42.3628 11.3675 35 20.48 35H102.4C111.513 35 118.88 42.3628 118.88 51.4211V166.187C118.88 195.935 95.103 220.165 65.44 220.979V153.526ZM198.56 153.526V149.526H194.56H153.6C144.487 149.526 137.12 142.163 137.12 133.105V51.4211C137.12 42.3628 144.487 35 153.6 35H235.52C244.633 35 252 42.3628 252 51.4211V166.187C252 195.935 228.223 220.165 198.56 220.979V153.526Z"
-                    stroke="currentColor" stroke-width="8"></path>
-            </svg>
-
-            <div class="space-y-8">
-                <p class="text-base sm:leading-relaxed md:text-2xl ">
-                    أنا شمس الدين دعجي، رائد أعمال ومطور برمجيات شغوف بابتكار الحلول الرقمية التي تُحدث فرقًا حقيقيًا. أؤمن بأن التقنية ليست مجرد أدوات، بل وسيلة لبناء مستقبل أكثر ذكاءً وحرية للمبدعين والأعمال الناشئة. أعمل حاليًا على تطوير مشاريع مفتوحة المصدر تهدف إلى تمكين الأفراد والشركات من بناء منصّاتهم الرقمية بسهولة وكفاءة. أحب التعلّم المستمر، خوض التحديات، وتحويل الأفكار إلى منتجات ملموسة تجمع بين البساطة والابتكار.
-                </p>
-
-                <footer class="flex items-center space-x-4 md:space-x-0">
-                    <img class="w-12 h-12 rounded-full md:hidden" src="/images/chamseddine.png" alt="Profile picture of Chamseddine Daaji">
-                    <span class="font-bold text-lg">شــمــس الــديــن دعــجــي</span>
-                </footer>
+        <div class="space-y-4 text-secondary leading-relaxed">
+          <p>
+            أنا رائد أعمال مبتدئ شغوف بخلق حلول مبتكرة تحدث تأثيرًا حقيقيًا. علّمتني رحلتي في عالم الأعمال والتكنولوجيا أهمية الجمع بين الإبداع والتفكير الاستراتيجي لبناء منتجات يحبها الناس.
+          </p>
+          
+          <p>
+            أركّز حاليًا على تطوير المنتجات الرقمية واستكشاف الفرص في نظام الشركات الناشئة التقنية. أؤمن بقوة التكنولوجيا في حل المشكلات الواقعية وخلق قيمة للمستخدمين والشركات على حد سواء.
+          </p>
+        </div>
+        
+        <!-- Key Achievements -->
+        <div class="grid grid-cols-3 gap-4 pt-6">
+          {#each achievements as achievement}
+            <div class="text-center">
+              <div class="text-2xl md:text-3xl font-bold text-accent">{achievement.number}</div>
+              <div class="text-sm text-secondary mt-1">{achievement.label}</div>
             </div>
-        </article>
-    </blockquote>
-</div>
-
+          {/each}
+        </div>
+        
+        <!-- Skills -->
+        <div class="pt-4">
+          <h3 class="text-foreground font-semibold mb-4">المهارات والخبرات</h3>
+          <div class="flex flex-wrap gap-3">
+            {#each skills as skill}
+              <span class="px-4 py-2 bg-muted text-foreground text-sm rounded-lg border border-border hover:border-accent transition-colors">
+                {skill}
+              </span>
+            {/each}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
