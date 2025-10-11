@@ -72,7 +72,7 @@
           class="group bg-card rounded-2xl overflow-hidden border border-border hover:border-accent transition-all hover:shadow-2xl {visible ? 'animate-fade-in-up' : 'opacity-0'}"
           style="animation-delay: {index * 0.1}s;"
         >
-          <a href={project.link} class="block">
+          <a href={project.link} target="_blank" class="block">
             <!-- Project Image -->
             <div class="relative overflow-hidden aspect-video bg-muted">
               <img
