@@ -8,7 +8,7 @@
   });
 </script>
 
-<section id="home" class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-20">
+<section id="home" class="min-h-[80vh]  flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-20">
   <div class="mx-auto max-w-7xl w-full">
     <div class="text-center space-y-8">
       <!-- Animated headline -->
