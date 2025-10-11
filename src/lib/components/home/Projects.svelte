@@ -20,32 +20,32 @@
   
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'Built a full-featured e-commerce platform with payment integration, inventory management, and customer analytics. Achieved 10k+ monthly active users within the first 6 months.',
-      technologies: ['SvelteKit', 'Stripe', 'PostgreSQL', 'Tailwind CSS'],
-      link: '#',
-      image: '/placeholder.svg?height=400&width=600'
+      title: 'Smart Mrkt X (SMX)',
+      description: 'منصّة مفتوحة المصدر تهدف إلى بناء أسواق رقمية حديثة بواجهة سهلة الاستخدام. تساعد الأفراد والشركات الصغيرة على إنشاء متاجرهم وإدارة منتجاتهم بسهولة واحترافية.',
+      technologies: ['SvelteKit', 'Vercel', 'Node.js', 'Tailwind CSS'],
+      link: 'https://smx.tn',
+      image: '/images/smx.png?height=400&width=600'
     },
     {
-      title: 'SaaS Analytics Tool',
-      description: 'Developed a SaaS analytics dashboard that helps businesses track key metrics and make data-driven decisions. Features real-time data visualization and custom reporting.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Chart.js'],
-      link: '#',
-      image: '/placeholder.svg?height=400&width=600'
+      title: 'Testx',
+      description: 'تطبيق مفتوح المصدر لتعليم واختبار مهارات اختبار البرمجيات (Software Testing). يوفّر تجربة تفاعلية لتعلّم المفاهيم العملية والنظرية مع واجهة أنيقة وسهلة الاستخدام.',
+      technologies: ['SvelteKit', 'Vercel', 'Node.js', 'Tailwind CSS'],
+      link: 'https://github.com/SmrtMrktX/Testx',
+      image: '/images/testx.png?height=400&width=600'
     },
     {
-      title: 'Mobile App for Productivity',
-      description: 'Created a mobile application focused on productivity and time management. Integrated AI-powered suggestions to help users optimize their daily routines.',
-      technologies: ['React Native', 'Firebase', 'AI/ML', 'TypeScript'],
-      link: '#',
-      image: '/placeholder.svg?height=400&width=600'
+      title: 'Sveltx',
+      description: 'قالب حديث وغني بالمميزات لبناء تطبيقات ويب قابلة للتوسع وعالية الأداء',
+      technologies: ['Sveltekit', 'TypeScript CSS', 'DaisyUI', 'Tailwind CSS'],
+      link: 'https://github.com/SmrtMrktX/Sveltx',
+      image: '/images/sveltx.png?height=400&width=600'
     },
     {
-      title: 'AI Content Generator',
-      description: 'Launched an AI-powered content generation tool that helps marketers and creators produce high-quality content faster. Integrated with multiple AI models for best results.',
-      technologies: ['Next.js', 'OpenAI', 'Vercel', 'TailwindCSS'],
-      link: '#',
-      image: '/placeholder.svg?height=400&width=600'
+      title: 'Experdesk',
+      description: 'تطبيق سطح مكتب احترافي لاختبارات الاختيار من متعدد (QCM)، صُمم لتقديم تجربة تعليمية وتقييمية سلسة وسريعة. يدعم أنظمة التشغيل ويندوز وماك ولينكس، ويتميز بواجهة مستخدم حديثة وأداء مستقر على جميع المنصات.',
+      technologies: ['Electron', 'Svelte', 'Gsap', 'Tailwind CSS'],
+      link: 'https://github.com/d3j1x/Experdesk',
+      image: '/images/experdesk.png?height=400&width=600'
     }
   ];
 </script>

@@ -14,5 +14,5 @@
 
 <About />
 
-<!-- <Projects /> -->
+<Projects />
 
