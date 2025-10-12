@@ -10,9 +10,9 @@
   ];
   
   const socialLinks = [
-    { name: 'GitHub', url: 'https://github.com/d3j1x' },
-    { name: 'LinkedIn', url: 'https://linkedin.com/in/chamseddinedaaji' },
-    { name: 'X', url: 'https://x.com/chamseddinedaji' }
+    { name: 'غيت هاب', url: 'https://github.com/d3j1x' },
+    { name: 'لينكد إن', url: 'https://linkedin.com/in/chamseddinedaaji' },
+    { name: 'إكس', url: 'https://x.com/chamseddinedaji' }
   ];
 </script>
 
@@ -46,7 +46,7 @@
       
       <!-- Social -->
       <div>
-        <h4 class="font-semibold text-foreground mb-4">Connect</h4>
+        <h4 class="font-semibold text-foreground mb-4">تواصل</h4>
         <div class="flex gap-4">
           {#each socialLinks as social}
             <a 
