@@ -23,19 +23,19 @@
 	<meta property="og:site_name" content="شمس الدين دعجي" />
 	<meta property="og:type" content="website" />
 	<meta property="og:locale" content="ar_AR" />
-	<meta property="og:image" content="https://chamseddine-daaji.vercel.app/og-image.png" />
+	<meta property="og:image" content="https://chamseddinedaaji.tn/og-image.png" />
 
 	<!-- Twitter / X Card Defaults -->
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="شمس الدين دعجي | رائد أعمال ومصمم مشاريع رقمية" />
 	<meta name="twitter:description" content="أكتشف أعمال ومشاريع شمس الدين دعجي في مجال التصميم والتطوير الرقمي." />
-	<meta name="twitter:image" content="https://chamseddine-daaji.vercel.app/og-image.png" />
+	<meta name="twitter:image" content="https://chamseddinedaaji.tn/og-image.png" />
 	<meta name="twitter:site" content="@chamseddinedaji" />
 	<meta name="twitter:creator" content="@chamseddinedaji" />
 
 
 	<!-- Canonical (dynamic per page) -->
-	<link rel="canonical" href={`https://chamseddine-daaji.vercel.app${$page.url.pathname}`} />
+	<link rel="canonical" href={`https://chamseddinedaaji.tn${$page.url.pathname}`} />
 
 	<!-- JSON-LD Structured Data -->
 	<script type="application/ld+json">
@@ -43,8 +43,8 @@
 			"@context": "https://schema.org",
 			"@type": "Person",
 			"name": "شمس الدين دعجي",
-			"url": "https://chamseddine-daaji.vercel.app/",
-			"image": "https://chamseddine-daaji.vercel.app/profile.png",
+			"url": "https://chamseddinedaaji.tn/",
+			"image": "https://chamseddinedaaji.tn/profile.png",
 			"jobTitle": "رائد أعمال ومصمم مشاريع رقمية",
 			"sameAs": [
 				"https://linkedin.com/in/chamseddinedaaji",

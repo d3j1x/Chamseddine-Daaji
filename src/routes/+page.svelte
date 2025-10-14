@@ -18,15 +18,15 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="شمس الدين دعجي | رائد أعمال ومصمم مشاريع رقمية" />
 	<meta property="og:description" content="أكتشف أعمال ومشاريع شمس الدين دعجي في مجال التصميم والتطوير الرقمي." />
-	<meta property="og:url" content="https://chamseddine-daaji.vercel.app/" />
-	<meta property="og:image" content="https://chamseddine-daaji.vercel.app/og-image.png" />
+	<meta property="og:url" content="https://chamseddinedaaji.tn/" />
+	<meta property="og:image" content="https://chamseddinedaaji.tn/og-image.png" />
 	<meta property="og:locale" content="ar_AR" />
 
 <!-- Twitter / X Card Defaults -->
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="شمس الدين دعجي | رائد أعمال ومصمم مشاريع رقمية" />
 	<meta name="twitter:description" content="أكتشف أعمال ومشاريع شمس الدين دعجي في مجال التصميم والتطوير الرقمي." />
-	<meta name="twitter:image" content="https://chamseddine-daaji.vercel.app/og-image.png" />
+	<meta name="twitter:image" content="https://chamseddinedaaji.tn/og-image.png" />
 	<meta name="twitter:site" content="@chamseddinedaji" />
 	<meta name="twitter:creator" content="@chamseddinedaji" />
 
@@ -34,7 +34,7 @@
 
 
 	<!-- Canonical Link -->
-	<link rel="canonical" href="https://chamseddine-daaji.vercel.app/" />
+	<link rel="canonical" href="https://chamseddinedaaji.tn/" />
 </svelte:head>
 
 <Hero />
