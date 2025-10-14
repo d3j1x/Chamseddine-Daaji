@@ -44,7 +44,7 @@
 			"@type": "Person",
 			"name": "شمس الدين دعجي",
 			"url": "https://chamseddine-daaji.vercel.app/",
-			"image": "https://chamseddine-daaji.vercel.appprofile.jpng",
+			"image": "https://chamseddine-daaji.vercel.app/profile.png",
 			"jobTitle": "رائد أعمال ومصمم مشاريع رقمية",
 			"sameAs": [
 				"https://linkedin.com/in/chamseddinedaaji",
