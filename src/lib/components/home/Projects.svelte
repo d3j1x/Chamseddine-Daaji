@@ -20,11 +20,11 @@
   
   const projects = [
     {
-      title: 'Smart Mrkt X (SMX)',
-      description: 'منصّة مفتوحة المصدر تهدف إلى بناء أسواق رقمية حديثة بواجهة سهلة الاستخدام. تساعد الأفراد والشركات الصغيرة على إنشاء متاجرهم وإدارة منتجاتهم بسهولة واحترافية.',
-      technologies: ['SvelteKit', 'Vercel', 'Node.js', 'Tailwind CSS'],
-      link: 'https://smx.tn',
-      image: '/images/smx.png?height=400&width=600'
+      title: 'عالم اتش.تي.إم.إل | HTMLverse',
+      description: 'استكشف عالم اتش.تي.إم.إل  HTMLverse (لغة ترميز النص الفائق) مع أمثلة، أفضل الممارسات، نصائح (تحسين محركات البحث)، وإرشادات الوصول.',
+      technologies: ['HTML', 'CSS', 'GitHub'],
+      link: 'https://d3j1x.github.io/HTMLverse/',
+      image: '/images/HTMLverseLogo.png?height=400&width=600'
     },
     {
       title: 'Testx',
@@ -78,7 +78,7 @@
               <img
                 src={project.image || "/placeholder.svg"}
                 alt={project.title}
-                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                class="w-full h-full object-center transition-transform duration-500 group-hover:scale-110"
               />
               <div class="absolute inset-0 bg-gradient-to-t from-card/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
             </div>
