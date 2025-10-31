@@ -28,7 +28,9 @@
 
 
 body {
-  font-family: "Noto Naskh Arabic", "Amiri", "Scheherazade New", "Arial", "Tahoma", sans-serif;
+  font-family: "Reem Kufi", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   background-color: var(--color-background);
   color: var(--color-foreground);
   
