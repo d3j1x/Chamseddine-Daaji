@@ -21,7 +21,7 @@
   const projects = [
     {
       title: 'عالم اتش.تي.إم.إل | HTMLverse',
-      description: 'استكشف عالم اتش.تي.إم.إل  HTMLverse (لغة ترميز النص الفائق) مع أمثلة، أفضل الممارسات، نصائح (تحسين محركات البحث)، وإرشادات الوصول.',
+      description: '"عالم اتش.تي.إم.إل" منصة تعليمية عربية حرة ومفتوحة المصدر.',
       technologies: ['HTML', 'CSS', 'GitHub'],
       link: 'https://d3j1x.github.io/HTMLverse/',
       image: '/images/HTMLverseLogo.png?height=400&width=600'
