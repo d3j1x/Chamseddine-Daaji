@@ -23,7 +23,7 @@
       title: 'عالم اتش.تي.إم.إل | HTMLverse',
       description: '"عالم اتش.تي.إم.إل" منصة تعليمية عربية حرة ومفتوحة المصدر.',
       technologies: ['HTML', 'CSS', 'GitHub'],
-      link: 'https://d3j1x.github.io/HTMLverse/',
+      link: 'https://arabiverse.github.io/HTMLverse/',
       image: '/images/HTMLverseLogo.png?height=400&width=600'
     },
     {
