@@ -13,12 +13,12 @@
     <div class="text-center space-y-8">
       <!-- Animated headline -->
       <div class="space-y-4 {visible ? 'animate-fade-in-up' : 'opacity-0'}">
-        <p class="text-accent font-medium text-sm md:text-base tracking-wide uppercase">
+        <p class="text-blue-900 font-medium text-sm md:text-base tracking-wide uppercase">
           مرحبًا بكم في ملفّي الشخصي
         </p>
         <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
           بناء المستقبل،<br />
-          <span class="text-accent">مشروعًا تلو الآخر</span>
+          <span class="text-blue-900">مشروعًا تلو الآخر</span>
         </h1>
         <p class="text-secondary text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
           رائد أعمال مبتدئ شغوف بابتكار حلول إبداعية تُحدث فرقًا. أحوّل الأفكار إلى واقع من خلال التكنولوجيا والإبداع.
@@ -29,7 +29,7 @@
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4 {visible ? 'animate-fade-in' : 'opacity-0'}" style="animation-delay: 0.2s;">
         <a 
           href="#projects" 
-          class="px-8 py-3 bg-accent text-accent-foreground rounded-lg font-medium hover:bg-accent/90 transition-all hover:scale-105 shadow-lg"
+          class="px-8 py-3 bg-blue-900 text-accent-foreground rounded-lg font-medium hover:bg-blue-900/90 transition-all hover:scale-105 shadow-lg"
           aria-label="View My Work"
         >
           عرض أعمالي

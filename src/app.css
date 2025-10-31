@@ -5,7 +5,8 @@
 @theme inline {
   /* Updated to deep slate theme with emerald accent and dark mode support */
   --color-background: #ffffff;
-  --color-foreground: #0f172a;
+  /* --color-foreground: #0f172a; */
+  --color-foreground: #0a1f44;
   --color-card: #ffffff;
   --color-card-foreground: #0f172a;
   --color-primary: #0f172a;

@@ -54,7 +54,7 @@
   <div class="mx-auto max-w-7xl">
     <!-- Section Header -->
     <div class="text-center mb-16 {visible ? 'animate-fade-in-up' : 'opacity-0'}">
-      <p class="text-accent font-medium text-sm md:text-base tracking-wide uppercase mb-2">
+      <p class="text-blue-900 font-medium text-sm md:text-base tracking-wide uppercase mb-2">
         معرض أعمالي
       </p>
       <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
@@ -69,7 +69,7 @@
     <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
       {#each projects as project, index}
         <article 
-          class="group bg-card rounded-2xl overflow-hidden border border-border hover:border-accent transition-all hover:shadow-2xl {visible ? 'animate-fade-in-up' : 'opacity-0'}"
+          class="group bg-card rounded-2xl overflow-hidden border border-border hover:border-blue-900 transition-all hover:shadow-2xl {visible ? 'animate-fade-in-up' : 'opacity-0'}"
           style="animation-delay: {index * 0.1}s;"
         >
           <a href={project.link} target="_blank" class="block">
@@ -85,7 +85,7 @@
             
             <!-- Project Content -->
             <div class="p-6 space-y-4">
-              <h3 class="text-xl md:text-2xl font-bold text-foreground group-hover:text-accent transition-colors flex items-center gap-2">
+              <h3 class="text-xl md:text-2xl font-bold text-foreground group-hover:text-blue-900 transition-colors flex items-center gap-2">
                 {project.title}
                 <svg class="w-5 h-5 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
@@ -98,7 +98,7 @@
               
               <div class="flex flex-wrap gap-2 pt-2">
                 {#each project.technologies as tech}
-                  <span class="text-xs font-medium text-accent bg-accent/10 px-3 py-1 rounded-full">
+                  <span class="text-xs font-medium text-blue-900 bg-blue-900/10 px-3 py-1 rounded-full">
                     {tech}
                   </span>
                 {/each}

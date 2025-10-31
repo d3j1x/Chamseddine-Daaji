@@ -35,7 +35,7 @@
             <li>
               <a 
                 href={link.href} 
-                class="text-secondary text-sm hover:text-accent transition-colors"
+                class="text-secondary text-sm hover:text-blue-900 transition-colors"
               >
                 {link.name}
               </a>
@@ -53,7 +53,7 @@
               href={social.url}
               target="_blank"
               rel="noopener noreferrer"
-              class="text-secondary hover:text-accent transition-colors"
+              class="text-secondary hover:text-blue-900 transition-colors"
               aria-label={social.name}
             >
               <span class="text-sm">{social.name}</span>
@@ -69,8 +69,8 @@
         © {currentYear} شــمــس الــديــن دعــجــي. جميع الحقوق محفوظة.
       </p>
       <div class="flex gap-6 text-sm">
-        <a href="/privacy-policy" class="text-secondary hover:text-accent transition-colors">سياسة الخصوصية</a>
-        <a href="/terms-of-service" class="text-secondary hover:text-accent transition-colors">شروط الخدمة</a>
+        <a href="/privacy-policy" class="text-secondary hover:text-blue-900 transition-colors">سياسة الخصوصية</a>
+        <a href="/terms-of-service" class="text-secondary hover:text-blue-900 transition-colors">شروط الخدمة</a>
       </div>
     </div>
   </div>

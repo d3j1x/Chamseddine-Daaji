@@ -54,7 +54,7 @@
       <!-- About Content -->
       <div class="order-1 md:order-2 space-y-6 {visible ? 'animate-fade-in-up' : 'opacity-0'}" style="animation-delay: 0.2s;">
         <div>
-          <p class="text-accent font-medium text-base tracking-wide  mb-2">
+          <p class="text-blue-900 font-medium text-base tracking-wide  mb-2">
             نبذة عني
           </p>
           <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
@@ -76,7 +76,7 @@
         <div class="grid grid-cols-3 gap-4 pt-6">
           {#each achievements as achievement}
             <div class="text-center">
-              <div class="text-2xl md:text-3xl font-bold text-accent">{achievement.number}</div>
+              <div class="text-2xl md:text-3xl font-bold text-blue-900">{achievement.number}</div>
               <div class="text-sm text-secondary mt-1">{achievement.label}</div>
             </div>
           {/each}
@@ -87,7 +87,7 @@
           <h3 class="text-foreground font-semibold mb-4">المهارات والخبرات</h3>
           <div class="flex flex-wrap gap-3">
             {#each skills as skill}
-              <span class="px-4 py-2 bg-muted text-foreground text-sm rounded-lg border border-border hover:border-accent transition-colors">
+              <span class="px-4 py-2 bg-muted text-foreground text-sm rounded-lg border border-border hover:border-blue-900 transition-colors">
                 {skill}
               </span>
             {/each}

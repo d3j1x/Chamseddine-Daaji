@@ -58,7 +58,7 @@
   <div class="mx-auto max-w-7xl">
     <!-- Section Header -->
     <div class="text-center mb-16 {visible ? 'animate-fade-in-up' : 'opacity-0'}">
-      <p class="text-accent font-medium text-sm md:text-base tracking-wide uppercase mb-2">
+      <p class="text-blue-900 font-medium text-sm md:text-base tracking-wide uppercase mb-2">
         تواصل معي
       </p>
       <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
@@ -82,7 +82,7 @@
               id="name"
               bind:value={formData.name}
               required
-              class="w-full px-4 py-3 bg-card border border-border rounded-lg text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all"
+              class="w-full px-4 py-3 bg-card border border-border rounded-lg text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-blue-900 focus:border-transparent transition-all"
               placeholder="اسمك"
             />
           </div>
@@ -96,7 +96,7 @@
               id="email"
               bind:value={formData.email}
               required
-              class="w-full px-4 py-3 bg-card border border-border rounded-lg text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all"
+              class="w-full px-4 py-3 bg-card border border-border rounded-lg text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-blue-900 focus:border-transparent transition-all"
               placeholder="your.email@example.com"
             />
           </div>
@@ -110,7 +110,7 @@
               bind:value={formData.message}
               required
               rows="6"
-              class="w-full px-4 py-3 bg-card border border-border rounded-lg text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all resize-none"
+              class="w-full px-4 py-3 bg-card border border-border rounded-lg text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-blue-900 focus:border-transparent transition-all resize-none"
               placeholder="أخبرني عن مشروعك..."
             ></textarea>
           </div>
@@ -118,13 +118,13 @@
           <button
             type="submit"
             disabled={isSubmitting}
-            class="w-full px-8 py-4 bg-accent text-accent-foreground font-medium rounded-lg hover:bg-accent/90 transition-all disabled:opacity-50 disabled:cursor-not-allowed hover:scale-105 shadow-lg"
+            class="w-full px-8 py-4 bg-blue-900 text-accent-foreground font-medium rounded-lg hover:bg-blue-900/90 transition-all disabled:opacity-50 disabled:cursor-not-allowed hover:scale-105 shadow-lg"
           >
             {isSubmitting ? 'جارٍ الإرسال…' : 'إرسال الرسالة'}
           </button>
           
           {#if submitStatus === 'success'}
-            <p class="text-accent text-sm text-center">تم إرسال الرسالة بنجاح! سأرد عليك في أقرب وقت ممكن.</p>
+            <p class="text-blue-900 text-sm text-center">تم إرسال الرسالة بنجاح! سأرد عليك في أقرب وقت ممكن.</p>
           {/if}
         </form>
       </div>
@@ -147,7 +147,7 @@
                 href={social.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                class="flex items-center gap-2 px-4 py-2 bg-card border border-border rounded-lg hover:border-accent transition-all hover:scale-105"
+                class="flex items-center gap-2 px-4 py-2 bg-card border border-border rounded-lg hover:border-blue-900 transition-all hover:scale-105"
                 aria-label={social.name}
               >
                 {#if social.icon === 'github'}
@@ -176,7 +176,7 @@
         <!-- Additional Info -->
         <div class="bg-card border border-border rounded-2xl p-6 space-y-4">
           <div class="flex items-start gap-3">
-            <svg class="w-6 h-6 text-accent flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg class="w-6 h-6 text-blue-900 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
             </svg>
             <div>
@@ -186,7 +186,7 @@
           </div>
           
           <div class="flex items-start gap-3">
-            <svg class="w-6 h-6 text-accent flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg class="w-6 h-6 text-blue-900 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
             </svg>

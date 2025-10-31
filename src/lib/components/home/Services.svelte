@@ -56,7 +56,7 @@
   <div class="mx-auto max-w-7xl">
     <!-- Section Header -->
     <div class="text-center mb-16 {visible ? 'animate-fade-in-up' : 'opacity-0'}">
-      <p class="text-accent font-medium text-sm md:text-base tracking-wide uppercase mb-2">
+      <p class="text-blue-900 font-medium text-sm md:text-base tracking-wide uppercase mb-2">
         الخدمات
       </p>
       <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
@@ -71,13 +71,13 @@
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
       {#each services as service, index}
         <div 
-          class="group bg-card rounded-2xl p-6 md:p-8 border border-border hover:border-accent transition-all hover:shadow-xl hover:-translate-y-2 {visible ? 'animate-fade-in-up' : 'opacity-0'}"
+          class="group bg-card rounded-2xl p-6 md:p-8 border border-border hover:border-blue-900 transition-all hover:shadow-xl hover:-translate-y-2 {visible ? 'animate-fade-in-up' : 'opacity-0'}"
           style="animation-delay: {index * 0.1}s;"
         >
           <div class="text-4xl md:text-5xl mb-4 transition-transform group-hover:scale-110">
             {service.icon}
           </div>
-          <h3 class="text-xl md:text-2xl font-bold text-foreground mb-3 group-hover:text-accent transition-colors">
+          <h3 class="text-xl md:text-2xl font-bold text-foreground mb-3 group-hover:text-blue-900 transition-colors">
             {service.title}
           </h3>
           <p class="text-secondary leading-relaxed">
