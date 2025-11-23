@@ -20,32 +20,18 @@
   
   const projects = [
     {
+      title: 'العالم العربي | Arabiverse',
+      description: 'العالم العربي هي منظمة عربية غير ربحية مفتوحة المصدر تهدف إلى تمكين ودعم المبرمجين والمبدعين العرب لبناء مستقبل رقمي عربي مستقل. نؤمن بأن المعرفة حق للجميع، ونسعى من خلال مشاريعنا ومجتمعنا إلى تعزيز ثقافة التعاون والمشاركة في تطوير البرمجيات والمحتوى العربي المفتوح.',
+      technologies: ['Web & App Development', 'Open-Source Infrastructure'],
+      link: 'https://www.linkedin.com/company/arabiverse/',
+      image: '/images/arabiverse.png?height=400&width=600'
+    },
+    {
       title: 'عالم اتش.تي.إم.إل | HTMLverse',
       description: '"عالم اتش.تي.إم.إل" منصة تعليمية عربية حرة ومفتوحة المصدر.',
       technologies: ['HTML', 'CSS', 'GitHub'],
       link: 'https://arabiverse.github.io/HTMLverse/',
       image: '/images/HTMLverseLogo.png?height=400&width=600'
-    },
-    {
-      title: 'Testx',
-      description: 'تطبيق مفتوح المصدر لتعليم واختبار مهارات اختبار البرمجيات (Software Testing). يوفّر تجربة تفاعلية لتعلّم المفاهيم العملية والنظرية مع واجهة أنيقة وسهلة الاستخدام.',
-      technologies: ['SvelteKit', 'Vercel', 'Node.js', 'Tailwind CSS'],
-      link: 'https://github.com/SmrtMrktX/Testx',
-      image: '/images/testx.png?height=400&width=600'
-    },
-    {
-      title: 'Sveltx',
-      description: 'قالب حديث وغني بالمميزات لبناء تطبيقات ويب قابلة للتوسع وعالية الأداء',
-      technologies: ['Sveltekit', 'TypeScript CSS', 'DaisyUI', 'Tailwind CSS'],
-      link: 'https://github.com/SmrtMrktX/Sveltx',
-      image: '/images/sveltx.png?height=400&width=600'
-    },
-    {
-      title: 'Experdesk',
-      description: 'تطبيق سطح مكتب احترافي لاختبارات الاختيار من متعدد (QCM)، صُمم لتقديم تجربة تعليمية وتقييمية سلسة وسريعة. يدعم أنظمة التشغيل ويندوز وماك ولينكس، ويتميز بواجهة مستخدم حديثة وأداء مستقر على جميع المنصات.',
-      technologies: ['Electron', 'Svelte', 'Gsap', 'Tailwind CSS'],
-      link: 'https://github.com/d3j1x/Experdesk',
-      image: '/images/experdesk.png?height=400&width=600'
     }
   ];
 </script>
